@@ -1,0 +1,3226 @@
+[
+ {
+  "path": "components/package.json",
+  "type": "file",
+  "name": "package.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "JUMFlot",
+     "requirement": "jumjum123/JUMFlot#*",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap-select",
+     "requirement": "^1.13.18",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap-social",
+     "requirement": "^4.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap-wysiwyg",
+     "requirement": "^2.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap",
+     "requirement": "^3.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "bootswatch",
+     "requirement": "3.4.1",
+     "resolved_requirement": "3.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "chosen-bootstrap",
+     "requirement": "https://github.com/dbtek/chosen-bootstrap",
+     "env": "runtime"
+    },
+    {
+     "name": "chosen-js",
+     "requirement": "^1.8.7",
+     "env": "runtime"
+    },
+    {
+     "name": "clipboard",
+     "requirement": "^2.0.11",
+     "env": "runtime"
+    },
+    {
+     "name": "components-jqueryui",
+     "requirement": "^1.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-buttons-bs",
+     "requirement": "^2.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-buttons-dt",
+     "requirement": "^2.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-colreorder",
+     "requirement": "^1.5.6",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-dt",
+     "requirement": "^1.12.1",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net",
+     "requirement": "^1.12.1",
+     "env": "runtime"
+    },
+    {
+     "name": "drmonty-datatables-plugins",
+     "requirement": "^1.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "drmonty-datatables-responsive",
+     "requirement": "^1.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "easymde",
+     "requirement": "^2.16.1",
+     "env": "runtime"
+    },
+    {
+     "name": "flot-axis",
+     "requirement": "markrcote/flot-axislabels#*",
+     "env": "runtime"
+    },
+    {
+     "name": "flot",
+     "requirement": "flot/flot#~0.8.3",
+     "env": "runtime"
+    },
+    {
+     "name": "font-awesome",
+     "requirement": "^4.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "fullcalendar",
+     "requirement": "^3.10.2",
+     "env": "runtime"
+    },
+    {
+     "name": "google-code-prettify",
+     "requirement": "^1.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery-highlight",
+     "requirement": "3.5.0",
+     "resolved_requirement": "3.5.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery.cookie",
+     "requirement": "1.4.1",
+     "resolved_requirement": "1.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery.flot.tooltip",
+     "requirement": "^0.9.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery.hotkeys",
+     "requirement": "jeresig/jquery.hotkeys#master",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery",
+     "requirement": "^3.6.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jszip",
+     "requirement": "^3.10.0",
+     "env": "runtime"
+    },
+    {
+     "name": "justgage",
+     "requirement": "^1.5.1",
+     "env": "runtime"
+    },
+    {
+     "name": "metismenu",
+     "requirement": "~3.0.7",
+     "env": "runtime"
+    },
+    {
+     "name": "moment",
+     "requirement": "^2.29.3",
+     "env": "runtime"
+    },
+    {
+     "name": "morris.js",
+     "requirement": "morrisjs/morris.js",
+     "env": "runtime"
+    },
+    {
+     "name": "pdfmake",
+     "requirement": "^0.2.5",
+     "env": "runtime"
+    },
+    {
+     "name": "startbootstrap-sb-admin-2",
+     "requirement": "1.0.7",
+     "resolved_requirement": "1.0.7",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "components/yarn.lock"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "components/yarn.lock",
+  "type": "file",
+  "name": "yarn.lock",
+  "extension": ".lock",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "@foliojs-fork/fontkit",
+     "requirement": "^1.9.1",
+     "resolved_requirement": "1.9.1",
+     "env": "runtime"
+    },
+    {
+     "name": "@foliojs-fork/linebreak",
+     "requirement": "^1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime"
+    },
+    {
+     "name": "@foliojs-fork/pdfkit",
+     "requirement": "^0.13.0",
+     "resolved_requirement": "0.13.0",
+     "env": "runtime"
+    },
+    {
+     "name": "@foliojs-fork/restructure",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "runtime"
+    },
+    {
+     "name": "@types/codemirror",
+     "requirement": "^5.60.4",
+     "resolved_requirement": "5.60.5",
+     "env": "runtime"
+    },
+    {
+     "name": "@types/estree",
+     "requirement": "*",
+     "resolved_requirement": "0.0.47",
+     "env": "runtime"
+    },
+    {
+     "name": "@types/marked",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "@types/tern",
+     "requirement": "*",
+     "resolved_requirement": "0.23.3",
+     "env": "runtime"
+    },
+    {
+     "name": "JUMFlot",
+     "requirement": "jumjum123/JUMFlot#*",
+     "resolved_requirement": "0.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "acorn-node",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.8.2",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "acorn-walk",
+     "requirement": "^7.0.0",
+     "resolved_requirement": "7.2.0",
+     "env": "runtime",
+     "parent": [
+      "acorn-node@^1.3.0"
+     ]
+    },
+    {
+     "name": "acorn",
+     "requirement": "^7.0.0",
+     "resolved_requirement": "7.4.0",
+     "env": "runtime",
+     "parent": [
+      "acorn-node@^1.3.0"
+     ]
+    },
+    {
+     "name": "amdefine",
+     "requirement": ">=0.0.4",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "source-map@~0.1.30"
+     ]
+    },
+    {
+     "name": "array-from",
+     "requirement": "^2.1.1",
+     "resolved_requirement": "2.1.1",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "ast-transform",
+     "requirement": "0.0.0",
+     "resolved_requirement": "0.0.0",
+     "env": "runtime",
+     "parent": [
+      "browserify-optional@^1.0.1"
+     ]
+    },
+    {
+     "name": "ast-types",
+     "requirement": "^0.7.0",
+     "resolved_requirement": "0.7.8",
+     "env": "runtime",
+     "parent": [
+      "browserify-optional@^1.0.1"
+     ]
+    },
+    {
+     "name": "base64-js",
+     "requirement": "1.3.1",
+     "resolved_requirement": "1.3.1",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/linebreak@^1.1.1"
+     ]
+    },
+    {
+     "name": "base64-js",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.3.1",
+     "env": "runtime",
+     "parent": [
+      "brotli@^1.2.0"
+     ]
+    },
+    {
+     "name": "base64-js",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.3.1",
+     "env": "runtime",
+     "parent": [
+      "unicode-properties@^1.2.2"
+     ]
+    },
+    {
+     "name": "bootstrap-select",
+     "requirement": "^1.13.18",
+     "resolved_requirement": "1.13.18",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap-social",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.11.0",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap-wysiwyg",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap",
+     "requirement": "^3.4.0",
+     "resolved_requirement": "3.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "bootstrap",
+     "requirement": "~3",
+     "resolved_requirement": "3.4.1",
+     "env": "runtime",
+     "parent": [
+      "bootstrap-social@^4.0.0"
+     ]
+    },
+    {
+     "name": "bootswatch",
+     "requirement": "3.4.1",
+     "resolved_requirement": "3.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "brfs",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.2",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "brfs",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.2",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/linebreak@^1.1.1"
+     ]
+    },
+    {
+     "name": "brotli",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.2",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "browser-resolve",
+     "requirement": "^1.8.1",
+     "resolved_requirement": "1.11.3",
+     "env": "runtime",
+     "parent": [
+      "browserify-optional@^1.0.1"
+     ]
+    },
+    {
+     "name": "browserify-optional",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "buffer-equal",
+     "requirement": "0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "runtime",
+     "parent": [
+      "quote-stream@^1.0.1"
+     ]
+    },
+    {
+     "name": "buffer-from",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "concat-stream@~1.6.0"
+     ]
+    },
+    {
+     "name": "chosen-bootstrap",
+     "requirement": "https://github.com/dbtek/chosen-bootstrap",
+     "resolved_requirement": "0.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "chosen-js",
+     "requirement": "^1.8.7",
+     "resolved_requirement": "1.8.7",
+     "env": "runtime"
+    },
+    {
+     "name": "clipboard",
+     "requirement": "^2.0.11",
+     "resolved_requirement": "2.0.11",
+     "env": "runtime"
+    },
+    {
+     "name": "clone",
+     "requirement": "^1.0.4",
+     "resolved_requirement": "1.0.4",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "codemirror-spell-checker",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "runtime",
+     "parent": [
+      "easymde@^2.16.1"
+     ]
+    },
+    {
+     "name": "codemirror",
+     "requirement": "^5.63.1",
+     "resolved_requirement": "5.65.0",
+     "env": "runtime",
+     "parent": [
+      "easymde@^2.16.1"
+     ]
+    },
+    {
+     "name": "components-jqueryui",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.12.1",
+     "env": "runtime"
+    },
+    {
+     "name": "concat-stream",
+     "requirement": "~1.6.0",
+     "resolved_requirement": "1.6.2",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "convert-source-map",
+     "requirement": "^1.5.1",
+     "resolved_requirement": "1.7.0",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "core-util-is",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.2",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "crypto-js",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.1.1",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/pdfkit@^0.13.0"
+     ]
+    },
+    {
+     "name": "d",
+     "requirement": "1",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "event-emitter@~0.3.5"
+     ]
+    },
+    {
+     "name": "d",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "es6-symbol@^3.1.1",
+      "es6-symbol@~3.1.1",
+      "es6-symbol@~3.1.3"
+     ]
+    },
+    {
+     "name": "dash-ast",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "datatables.net-bs",
+     "requirement": ">=1.11.3",
+     "resolved_requirement": "1.11.3",
+     "env": "runtime",
+     "parent": [
+      "datatables.net-buttons-bs@^2.2.3"
+     ]
+    },
+    {
+     "name": "datatables.net-buttons-bs",
+     "requirement": "^2.2.3",
+     "resolved_requirement": "2.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-buttons-dt",
+     "requirement": "^2.2.3",
+     "resolved_requirement": "2.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-buttons",
+     "requirement": ">=2.0.1",
+     "resolved_requirement": "2.1.1",
+     "env": "runtime",
+     "parent": [
+      "datatables.net-buttons-dt@^2.2.3"
+     ]
+    },
+    {
+     "name": "datatables.net-colreorder",
+     "requirement": "^1.5.6",
+     "resolved_requirement": "1.5.6",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net-dt",
+     "requirement": ">=1.11.3",
+     "resolved_requirement": "1.12.1",
+     "env": "runtime",
+     "parent": [
+      "datatables.net-buttons-dt@^2.2.3"
+     ]
+    },
+    {
+     "name": "datatables.net-dt",
+     "requirement": "^1.12.1",
+     "resolved_requirement": "1.12.1",
+     "env": "runtime"
+    },
+    {
+     "name": "datatables.net",
+     "requirement": ">=1.10.25",
+     "resolved_requirement": "1.12.1",
+     "env": "runtime",
+     "parent": [
+      "datatables.net-bs@>=1.11.3"
+     ]
+    },
+    {
+     "name": "datatables.net",
+     "requirement": ">=1.11.3",
+     "resolved_requirement": "1.12.1",
+     "env": "runtime",
+     "parent": [
+      "datatables.net-dt@>=1.11.3",
+      "datatables.net-dt@^1.12.1"
+     ]
+    },
+    {
+     "name": "datatables.net",
+     "requirement": "^1.12.1",
+     "resolved_requirement": "1.12.1",
+     "env": "runtime"
+    },
+    {
+     "name": "deep-equal",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "deep-is",
+     "requirement": "~0.1.3",
+     "resolved_requirement": "0.1.3",
+     "env": "runtime",
+     "parent": [
+      "optionator@^0.8.1"
+     ]
+    },
+    {
+     "name": "define-properties",
+     "requirement": "^1.1.3",
+     "resolved_requirement": "1.1.3",
+     "env": "runtime",
+     "parent": [
+      "string.prototype.trimstart@^1.0.1"
+     ]
+    },
+    {
+     "name": "delegate",
+     "requirement": "^3.1.2",
+     "resolved_requirement": "3.2.0",
+     "env": "runtime",
+     "parent": [
+      "good-listener@^1.2.2"
+     ]
+    },
+    {
+     "name": "dfa",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.2.0",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "drmonty-datatables-plugins",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.10.12",
+     "env": "runtime"
+    },
+    {
+     "name": "drmonty-datatables-responsive",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.6",
+     "env": "runtime"
+    },
+    {
+     "name": "duplexer2",
+     "requirement": "~0.1.4",
+     "resolved_requirement": "0.1.4",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "easymde",
+     "requirement": "^2.16.1",
+     "resolved_requirement": "2.16.1",
+     "env": "runtime"
+    },
+    {
+     "name": "es-abstract",
+     "requirement": "^1.17.0-next.1",
+     "resolved_requirement": "1.17.6",
+     "env": "runtime",
+     "parent": [
+      "regexp.prototype.flags@^1.2.0"
+     ]
+    },
+    {
+     "name": "es-abstract",
+     "requirement": "^1.17.5",
+     "resolved_requirement": "1.17.6",
+     "env": "runtime",
+     "parent": [
+      "string.prototype.trimstart@^1.0.1"
+     ]
+    },
+    {
+     "name": "es-abstract",
+     "requirement": "^1.18.0-next.0",
+     "resolved_requirement": "1.18.0-next.0",
+     "env": "runtime",
+     "parent": [
+      "object.assign@^4.1.0"
+     ]
+    },
+    {
+     "name": "es-to-primitive",
+     "requirement": "^1.2.1",
+     "resolved_requirement": "1.2.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "es5-ext",
+     "requirement": "^0.10.35",
+     "resolved_requirement": "0.10.53",
+     "env": "runtime",
+     "parent": [
+      "es6-iterator@~2.0.1",
+      "es6-iterator@~2.0.3"
+     ]
+    },
+    {
+     "name": "es5-ext",
+     "requirement": "^0.10.50",
+     "resolved_requirement": "0.10.53",
+     "env": "runtime",
+     "parent": [
+      "d@1",
+      "d@^1.0.1"
+     ]
+    },
+    {
+     "name": "es5-ext",
+     "requirement": "~0.10.14",
+     "resolved_requirement": "0.10.53",
+     "env": "runtime",
+     "parent": [
+      "event-emitter@~0.3.5"
+     ]
+    },
+    {
+     "name": "es6-iterator",
+     "requirement": "~2.0.1",
+     "resolved_requirement": "2.0.3",
+     "env": "runtime",
+     "parent": [
+      "es6-set@^0.1.5",
+      "es6-set@~0.1.5"
+     ]
+    },
+    {
+     "name": "es6-iterator",
+     "requirement": "~2.0.3",
+     "resolved_requirement": "2.0.3",
+     "env": "runtime",
+     "parent": [
+      "es5-ext@^0.10.35",
+      "es5-ext@^0.10.50",
+      "es5-ext@~0.10.14"
+     ]
+    },
+    {
+     "name": "es6-map",
+     "requirement": "^0.1.5",
+     "resolved_requirement": "0.1.5",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "es6-set",
+     "requirement": "^0.1.5",
+     "resolved_requirement": "0.1.5",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "es6-set",
+     "requirement": "~0.1.5",
+     "resolved_requirement": "0.1.5",
+     "env": "runtime",
+     "parent": [
+      "es6-map@^0.1.5"
+     ]
+    },
+    {
+     "name": "es6-symbol",
+     "requirement": "3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "runtime",
+     "parent": [
+      "es6-set@^0.1.5",
+      "es6-set@~0.1.5"
+     ]
+    },
+    {
+     "name": "es6-symbol",
+     "requirement": "^3.1.1",
+     "resolved_requirement": "3.1.3",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "es6-symbol",
+     "requirement": "~3.1.1",
+     "resolved_requirement": "3.1.3",
+     "env": "runtime",
+     "parent": [
+      "es6-map@^0.1.5"
+     ]
+    },
+    {
+     "name": "es6-symbol",
+     "requirement": "~3.1.3",
+     "resolved_requirement": "3.1.3",
+     "env": "runtime",
+     "parent": [
+      "es5-ext@^0.10.35",
+      "es5-ext@^0.10.50",
+      "es5-ext@~0.10.14"
+     ]
+    },
+    {
+     "name": "escodegen",
+     "requirement": "^1.11.1",
+     "resolved_requirement": "1.14.3",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "escodegen",
+     "requirement": "~1.2.0",
+     "resolved_requirement": "1.2.0",
+     "env": "runtime",
+     "parent": [
+      "ast-transform@0.0.0"
+     ]
+    },
+    {
+     "name": "esprima",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "4.0.1",
+     "env": "runtime",
+     "parent": [
+      "escodegen@^1.11.1"
+     ]
+    },
+    {
+     "name": "esprima",
+     "requirement": "~1.0.4",
+     "resolved_requirement": "1.0.4",
+     "env": "runtime",
+     "parent": [
+      "escodegen@~1.2.0"
+     ]
+    },
+    {
+     "name": "estraverse",
+     "requirement": "^4.2.0",
+     "resolved_requirement": "4.3.0",
+     "env": "runtime",
+     "parent": [
+      "escodegen@^1.11.1"
+     ]
+    },
+    {
+     "name": "estraverse",
+     "requirement": "~1.5.0",
+     "resolved_requirement": "1.5.1",
+     "env": "runtime",
+     "parent": [
+      "escodegen@~1.2.0"
+     ]
+    },
+    {
+     "name": "estree-is-function",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "esutils",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.3",
+     "env": "runtime",
+     "parent": [
+      "escodegen@^1.11.1"
+     ]
+    },
+    {
+     "name": "esutils",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "runtime",
+     "parent": [
+      "escodegen@~1.2.0"
+     ]
+    },
+    {
+     "name": "eve-raphael",
+     "requirement": "0.5.0",
+     "resolved_requirement": "0.5.0",
+     "env": "runtime",
+     "parent": [
+      "raphael@^2.3.0"
+     ]
+    },
+    {
+     "name": "event-emitter",
+     "requirement": "~0.3.5",
+     "resolved_requirement": "0.3.5",
+     "env": "runtime",
+     "parent": [
+      "es6-set@^0.1.5",
+      "es6-set@~0.1.5"
+     ]
+    },
+    {
+     "name": "ext",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.4.0",
+     "env": "runtime",
+     "parent": [
+      "es6-symbol@^3.1.1",
+      "es6-symbol@~3.1.1",
+      "es6-symbol@~3.1.3"
+     ]
+    },
+    {
+     "name": "fast-levenshtein",
+     "requirement": "~2.0.6",
+     "resolved_requirement": "2.0.6",
+     "env": "runtime",
+     "parent": [
+      "optionator@^0.8.1"
+     ]
+    },
+    {
+     "name": "flot-axis",
+     "requirement": "markrcote/flot-axislabels#*",
+     "resolved_requirement": "0.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "flot",
+     "requirement": "flot/flot#~0.8.3",
+     "resolved_requirement": "0.8.3",
+     "env": "runtime"
+    },
+    {
+     "name": "font-awesome",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.7.0",
+     "env": "runtime"
+    },
+    {
+     "name": "font-awesome",
+     "requirement": "~4.4",
+     "resolved_requirement": "4.4.0",
+     "env": "runtime",
+     "parent": [
+      "bootstrap-social@^4.0.0"
+     ]
+    },
+    {
+     "name": "fullcalendar",
+     "requirement": "^3.10.2",
+     "resolved_requirement": "3.10.2",
+     "env": "runtime"
+    },
+    {
+     "name": "function-bind",
+     "requirement": "^1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "has@^1.0.1",
+      "has@^1.0.3"
+     ]
+    },
+    {
+     "name": "get-assigned-identifiers",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.2.0",
+     "env": "runtime",
+     "parent": [
+      "scope-analyzer@^2.0.1"
+     ]
+    },
+    {
+     "name": "good-listener",
+     "requirement": "^1.2.2",
+     "resolved_requirement": "1.2.2",
+     "env": "runtime",
+     "parent": [
+      "clipboard@^2.0.11"
+     ]
+    },
+    {
+     "name": "google-code-prettify",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.5",
+     "env": "runtime"
+    },
+    {
+     "name": "has-symbols",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "object.assign@^4.1.0"
+     ]
+    },
+    {
+     "name": "has",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.3",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "has",
+     "requirement": "^1.0.3",
+     "resolved_requirement": "1.0.3",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "iconv-lite",
+     "requirement": "^0.6.3",
+     "resolved_requirement": "0.6.3",
+     "env": "runtime",
+     "parent": [
+      "pdfmake@^0.2.5"
+     ]
+    },
+    {
+     "name": "immediate",
+     "requirement": "~3.0.5",
+     "resolved_requirement": "3.0.6",
+     "env": "runtime",
+     "parent": [
+      "lie@~3.3.0"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "^2.0.3",
+     "resolved_requirement": "2.0.4",
+     "env": "runtime",
+     "parent": [
+      "concat-stream@~1.6.0"
+     ]
+    },
+    {
+     "name": "inherits",
+     "requirement": "~2.0.3",
+     "resolved_requirement": "2.0.4",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "is-arguments",
+     "requirement": "^1.0.4",
+     "resolved_requirement": "1.0.4",
+     "env": "runtime",
+     "parent": [
+      "deep-equal@^1.0.0"
+     ]
+    },
+    {
+     "name": "is-callable",
+     "requirement": "^1.1.4",
+     "resolved_requirement": "1.2.1",
+     "env": "runtime",
+     "parent": [
+      "es-to-primitive@^1.2.1"
+     ]
+    },
+    {
+     "name": "is-callable",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.2.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "is-date-object",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "runtime",
+     "parent": [
+      "es-to-primitive@^1.2.1"
+     ]
+    },
+    {
+     "name": "is-negative-zero",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "is-regex",
+     "requirement": "^1.0.4",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "deep-equal@^1.0.0"
+     ]
+    },
+    {
+     "name": "is-regex",
+     "requirement": "^1.1.0",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.17.0-next.1",
+      "es-abstract@^1.17.5"
+     ]
+    },
+    {
+     "name": "is-regex",
+     "requirement": "^1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "is-symbol",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.3",
+     "env": "runtime",
+     "parent": [
+      "es-to-primitive@^1.2.1"
+     ]
+    },
+    {
+     "name": "isarray",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "jquery-highlight",
+     "requirement": "3.5.0",
+     "resolved_requirement": "3.5.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery.cookie",
+     "requirement": "1.4.1",
+     "resolved_requirement": "1.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery.flot.tooltip",
+     "requirement": "^0.9.0",
+     "resolved_requirement": "0.9.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery.hotkeys",
+     "requirement": "jeresig/jquery.hotkeys#master",
+     "resolved_requirement": "0.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery",
+     "requirement": ">=1.0.0",
+     "resolved_requirement": "3.6.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jquery",
+     "requirement": ">=1.7.0",
+     "resolved_requirement": "3.6.0",
+     "env": "runtime",
+     "parent": [
+      "drmonty-datatables-responsive@^1.0.0"
+     ]
+    },
+    {
+     "name": "jquery",
+     "requirement": ">=1.7",
+     "resolved_requirement": "3.6.0",
+     "env": "runtime",
+     "parent": [
+      "drmonty-datatables-plugins@^1.0.0"
+     ]
+    },
+    {
+     "name": "jquery",
+     "requirement": "^3.6.0",
+     "resolved_requirement": "3.6.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jszip",
+     "requirement": "^3.10.0",
+     "resolved_requirement": "3.10.0",
+     "env": "runtime"
+    },
+    {
+     "name": "justgage",
+     "requirement": "^1.5.1",
+     "resolved_requirement": "1.5.1",
+     "env": "runtime"
+    },
+    {
+     "name": "levn",
+     "requirement": "~0.3.0",
+     "resolved_requirement": "0.3.0",
+     "env": "runtime",
+     "parent": [
+      "optionator@^0.8.1"
+     ]
+    },
+    {
+     "name": "lie",
+     "requirement": "~3.3.0",
+     "resolved_requirement": "3.3.0",
+     "env": "runtime",
+     "parent": [
+      "jszip@^3.10.0"
+     ]
+    },
+    {
+     "name": "magic-string",
+     "requirement": "0.25.1",
+     "resolved_requirement": "0.25.1",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "marked",
+     "requirement": "^4.0.10",
+     "resolved_requirement": "4.0.10",
+     "env": "runtime",
+     "parent": [
+      "easymde@^2.16.1"
+     ]
+    },
+    {
+     "name": "merge-source-map",
+     "requirement": "1.0.4",
+     "resolved_requirement": "1.0.4",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "metismenu",
+     "requirement": "~3.0.7",
+     "resolved_requirement": "3.0.7",
+     "env": "runtime"
+    },
+    {
+     "name": "minimist",
+     "requirement": "^1.1.3",
+     "resolved_requirement": "1.2.6",
+     "env": "runtime",
+     "parent": [
+      "quote-stream@^1.0.1"
+     ]
+    },
+    {
+     "name": "moment",
+     "requirement": "^2.29.3",
+     "resolved_requirement": "2.29.3",
+     "env": "runtime"
+    },
+    {
+     "name": "morris.js",
+     "requirement": "morrisjs/morris.js",
+     "resolved_requirement": "0.5.1",
+     "env": "runtime"
+    },
+    {
+     "name": "next-tick",
+     "requirement": "~1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "runtime",
+     "parent": [
+      "es5-ext@^0.10.35",
+      "es5-ext@^0.10.50",
+      "es5-ext@~0.10.14"
+     ]
+    },
+    {
+     "name": "object-inspect",
+     "requirement": "^1.6.0",
+     "resolved_requirement": "1.8.0",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "object-inspect",
+     "requirement": "^1.7.0",
+     "resolved_requirement": "1.8.0",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.17.0-next.1",
+      "es-abstract@^1.17.5"
+     ]
+    },
+    {
+     "name": "object-inspect",
+     "requirement": "^1.8.0",
+     "resolved_requirement": "1.8.0",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "object-is",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.1.2",
+     "env": "runtime",
+     "parent": [
+      "deep-equal@^1.0.0"
+     ]
+    },
+    {
+     "name": "object-keys",
+     "requirement": "^1.0.12",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "define-properties@^1.1.3"
+     ]
+    },
+    {
+     "name": "object-keys",
+     "requirement": "^1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "object.assign@^4.1.0"
+     ]
+    },
+    {
+     "name": "object.assign",
+     "requirement": "^4.1.0",
+     "resolved_requirement": "4.1.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "optionator",
+     "requirement": "^0.8.1",
+     "resolved_requirement": "0.8.3",
+     "env": "runtime",
+     "parent": [
+      "escodegen@^1.11.1"
+     ]
+    },
+    {
+     "name": "pako",
+     "requirement": "^0.2.5",
+     "resolved_requirement": "0.2.9",
+     "env": "runtime",
+     "parent": [
+      "unicode-trie@^2.0.0"
+     ]
+    },
+    {
+     "name": "pako",
+     "requirement": "~1.0.2",
+     "resolved_requirement": "1.0.11",
+     "env": "runtime",
+     "parent": [
+      "jszip@^3.10.0"
+     ]
+    },
+    {
+     "name": "path-parse",
+     "requirement": "^1.0.6",
+     "resolved_requirement": "1.0.7",
+     "env": "runtime",
+     "parent": [
+      "resolve@^1.1.5"
+     ]
+    },
+    {
+     "name": "pdfmake",
+     "requirement": "^0.2.5",
+     "resolved_requirement": "0.2.5",
+     "env": "runtime"
+    },
+    {
+     "name": "png-js",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/pdfkit@^0.13.0"
+     ]
+    },
+    {
+     "name": "prelude-ls",
+     "requirement": "~1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "runtime",
+     "parent": [
+      "type-check@~0.3.2"
+     ]
+    },
+    {
+     "name": "process-nextick-args",
+     "requirement": "~2.0.0",
+     "resolved_requirement": "2.0.1",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "quote-stream",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "runtime",
+     "parent": [
+      "brfs@^2.0.0",
+      "brfs@^2.0.2"
+     ]
+    },
+    {
+     "name": "raphael",
+     "requirement": "^2.3.0",
+     "resolved_requirement": "2.3.0",
+     "env": "runtime",
+     "parent": [
+      "justgage@^1.5.1"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.3.7",
+     "env": "runtime",
+     "parent": [
+      "duplexer2@~0.1.4"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "^2.2.2",
+     "resolved_requirement": "2.3.7",
+     "env": "runtime",
+     "parent": [
+      "concat-stream@~1.6.0"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "~2.3.3",
+     "resolved_requirement": "2.3.7",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "readable-stream",
+     "requirement": "~2.3.6",
+     "resolved_requirement": "2.3.7",
+     "env": "runtime",
+     "parent": [
+      "through2@^2.0.0",
+      "through2@~2.0.3"
+     ]
+    },
+    {
+     "name": "regexp.prototype.flags",
+     "requirement": "^1.2.0",
+     "resolved_requirement": "1.3.0",
+     "env": "runtime",
+     "parent": [
+      "deep-equal@^1.0.0"
+     ]
+    },
+    {
+     "name": "resolve",
+     "requirement": "1.1.7",
+     "resolved_requirement": "1.1.7",
+     "env": "runtime",
+     "parent": [
+      "browser-resolve@^1.8.1"
+     ]
+    },
+    {
+     "name": "resolve",
+     "requirement": "^1.1.5",
+     "resolved_requirement": "1.17.0",
+     "env": "runtime",
+     "parent": [
+      "brfs@^2.0.0",
+      "brfs@^2.0.2"
+     ]
+    },
+    {
+     "name": "safe-buffer",
+     "requirement": "~5.1.0",
+     "resolved_requirement": "5.1.2",
+     "env": "runtime",
+     "parent": [
+      "string_decoder@~1.1.1"
+     ]
+    },
+    {
+     "name": "safe-buffer",
+     "requirement": "~5.1.1",
+     "resolved_requirement": "5.1.2",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "safer-buffer",
+     "requirement": ">=2.1.2<3.0.0",
+     "resolved_requirement": "2.1.2",
+     "env": "runtime"
+    },
+    {
+     "name": "sax",
+     "requirement": "^1.2.1",
+     "resolved_requirement": "1.2.4",
+     "env": "runtime",
+     "parent": [
+      "xmldoc@^1.1.2"
+     ]
+    },
+    {
+     "name": "scope-analyzer",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.1.1",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "select",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "runtime",
+     "parent": [
+      "clipboard@^2.0.11"
+     ]
+    },
+    {
+     "name": "setimmediate",
+     "requirement": "^1.0.5",
+     "resolved_requirement": "1.0.5",
+     "env": "runtime",
+     "parent": [
+      "jszip@^3.10.0"
+     ]
+    },
+    {
+     "name": "shallow-copy",
+     "requirement": "~0.0.1",
+     "resolved_requirement": "0.0.1",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "^0.5.6",
+     "resolved_requirement": "0.5.7",
+     "env": "runtime",
+     "parent": [
+      "merge-source-map@1.0.4"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "~0.1.30",
+     "resolved_requirement": "0.1.43",
+     "env": "runtime",
+     "parent": [
+      "escodegen@~1.2.0"
+     ]
+    },
+    {
+     "name": "source-map",
+     "requirement": "~0.6.1",
+     "resolved_requirement": "0.6.1",
+     "env": "runtime",
+     "parent": [
+      "escodegen@^1.11.1"
+     ]
+    },
+    {
+     "name": "sourcemap-codec",
+     "requirement": "^1.4.1",
+     "resolved_requirement": "1.4.8",
+     "env": "runtime",
+     "parent": [
+      "magic-string@0.25.1"
+     ]
+    },
+    {
+     "name": "startbootstrap-sb-admin-2",
+     "requirement": "1.0.7",
+     "resolved_requirement": "1.0.7",
+     "env": "runtime"
+    },
+    {
+     "name": "static-eval",
+     "requirement": "^2.0.5",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "static-module",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.0.4",
+     "env": "runtime",
+     "parent": [
+      "brfs@^2.0.0",
+      "brfs@^2.0.2"
+     ]
+    },
+    {
+     "name": "string.prototype.trimend",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "string.prototype.trimstart",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "runtime",
+     "parent": [
+      "es-abstract@^1.18.0-next.0"
+     ]
+    },
+    {
+     "name": "string_decoder",
+     "requirement": "~1.1.1",
+     "resolved_requirement": "1.1.1",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.5",
+     "env": "runtime",
+     "parent": [
+      "quote-stream@^1.0.1"
+     ]
+    },
+    {
+     "name": "through2",
+     "requirement": "~2.0.3",
+     "resolved_requirement": "2.0.5",
+     "env": "runtime",
+     "parent": [
+      "static-module@^3.0.2"
+     ]
+    },
+    {
+     "name": "through",
+     "requirement": "~2.3.4",
+     "resolved_requirement": "2.3.8",
+     "env": "runtime",
+     "parent": [
+      "ast-transform@0.0.0"
+     ]
+    },
+    {
+     "name": "tiny-emitter",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime",
+     "parent": [
+      "clipboard@^2.0.11"
+     ]
+    },
+    {
+     "name": "tiny-inflate",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.3",
+     "env": "runtime",
+     "parent": [
+      "unicode-trie@^2.0.0"
+     ]
+    },
+    {
+     "name": "tiny-inflate",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.3",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "type-check",
+     "requirement": "~0.3.2",
+     "resolved_requirement": "0.3.2",
+     "env": "runtime",
+     "parent": [
+      "optionator@^0.8.1"
+     ]
+    },
+    {
+     "name": "type",
+     "requirement": "^1.0.1",
+     "resolved_requirement": "1.2.0",
+     "env": "runtime",
+     "parent": [
+      "d@1",
+      "d@^1.0.1"
+     ]
+    },
+    {
+     "name": "type",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime",
+     "parent": [
+      "ext@^1.1.2"
+     ]
+    },
+    {
+     "name": "typedarray",
+     "requirement": "^0.0.6",
+     "resolved_requirement": "0.0.6",
+     "env": "runtime",
+     "parent": [
+      "concat-stream@~1.6.0"
+     ]
+    },
+    {
+     "name": "typo-js",
+     "requirement": "*",
+     "resolved_requirement": "1.1.0",
+     "env": "runtime",
+     "parent": [
+      "codemirror-spell-checker@1.1.2"
+     ]
+    },
+    {
+     "name": "unicode-properties",
+     "requirement": "^1.2.2",
+     "resolved_requirement": "1.3.1",
+     "env": "runtime",
+     "parent": [
+      "@foliojs-fork/fontkit@^1.9.1"
+     ]
+    },
+    {
+     "name": "unicode-trie",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "runtime",
+     "parent": [
+      "unicode-properties@^1.2.2"
+     ]
+    },
+    {
+     "name": "util-deprecate",
+     "requirement": "~1.0.1",
+     "resolved_requirement": "1.0.2",
+     "env": "runtime",
+     "parent": [
+      "readable-stream@^2.0.2",
+      "readable-stream@^2.2.2",
+      "readable-stream@~2.3.3",
+      "readable-stream@~2.3.6"
+     ]
+    },
+    {
+     "name": "word-wrap",
+     "requirement": "~1.2.3",
+     "resolved_requirement": "1.2.3",
+     "env": "runtime",
+     "parent": [
+      "optionator@^0.8.1"
+     ]
+    },
+    {
+     "name": "xmldoc",
+     "requirement": "^1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "runtime",
+     "parent": [
+      "pdfmake@^0.2.5"
+     ]
+    },
+    {
+     "name": "xtend",
+     "requirement": "^4.0.2",
+     "resolved_requirement": "4.0.2",
+     "env": "runtime",
+     "parent": [
+      "acorn-node@^1.3.0"
+     ]
+    },
+    {
+     "name": "xtend",
+     "requirement": "~4.0.1",
+     "resolved_requirement": "4.0.2",
+     "env": "runtime",
+     "parent": [
+      "through2@^2.0.0",
+      "through2@~2.0.3"
+     ]
+    }
+   ],
+   "kind": "lockfile",
+   "related": [
+    "components/package.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "docs/package-lock.json",
+  "type": "file",
+  "name": "package-lock.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "@nodelib/fs.scandir",
+     "requirement": "2.1.5",
+     "resolved_requirement": "2.1.5",
+     "env": "dev",
+     "parent": [
+      "@nodelib/fs.walk"
+     ]
+    },
+    {
+     "name": "@nodelib/fs.stat",
+     "requirement": "2.0.5",
+     "resolved_requirement": "2.0.5",
+     "env": "dev",
+     "parent": [
+      "@nodelib/fs.scandir"
+     ]
+    },
+    {
+     "name": "@nodelib/fs.stat",
+     "requirement": "^2.0.2",
+     "resolved_requirement": "2.0.5",
+     "env": "dev",
+     "parent": [
+      "@nodelib/fs.scandir",
+      "fast-glob"
+     ]
+    },
+    {
+     "name": "@nodelib/fs.walk",
+     "requirement": "^1.2.3",
+     "resolved_requirement": "1.2.8",
+     "env": "dev",
+     "parent": [
+      "fast-glob"
+     ]
+    },
+    {
+     "name": "ansi-regex",
+     "requirement": "^5.0.1",
+     "resolved_requirement": "5.0.1",
+     "env": "dev",
+     "parent": [
+      "strip-ansi"
+     ]
+    },
+    {
+     "name": "ansi-styles",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.3.0",
+     "env": "dev",
+     "parent": [
+      "wrap-ansi"
+     ]
+    },
+    {
+     "name": "anymatch",
+     "requirement": "~3.1.2",
+     "resolved_requirement": "3.1.2",
+     "env": "dev",
+     "parent": [
+      "chokidar"
+     ]
+    },
+    {
+     "name": "array-union",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "globby"
+     ]
+    },
+    {
+     "name": "autoprefixer",
+     "resolved_requirement": "10.4.7",
+     "env": "dev"
+    },
+    {
+     "name": "binary-extensions",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.2.0",
+     "env": "dev",
+     "parent": [
+      "is-binary-path"
+     ]
+    },
+    {
+     "name": "braces",
+     "requirement": "^3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "chokidar",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "braces",
+     "requirement": "~3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "dev",
+     "parent": [
+      "chokidar"
+     ]
+    },
+    {
+     "name": "browserslist",
+     "requirement": "^4.20.3",
+     "resolved_requirement": "4.20.3",
+     "env": "dev",
+     "parent": [
+      "autoprefixer"
+     ]
+    },
+    {
+     "name": "caniuse-lite",
+     "requirement": "^1.0.30001332",
+     "resolved_requirement": "1.0.30001335",
+     "env": "dev",
+     "parent": [
+      "browserslist"
+     ]
+    },
+    {
+     "name": "caniuse-lite",
+     "requirement": "^1.0.30001335",
+     "resolved_requirement": "1.0.30001335",
+     "env": "dev",
+     "parent": [
+      "autoprefixer",
+      "browserslist"
+     ]
+    },
+    {
+     "name": "chokidar",
+     "requirement": "^3.3.0",
+     "resolved_requirement": "3.5.3",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "cliui",
+     "requirement": "^7.0.2",
+     "resolved_requirement": "7.0.4",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "color-convert",
+     "requirement": "^2.0.1",
+     "resolved_requirement": "2.0.1",
+     "env": "dev",
+     "parent": [
+      "ansi-styles"
+     ]
+    },
+    {
+     "name": "color-name",
+     "requirement": "~1.1.4",
+     "resolved_requirement": "1.1.4",
+     "env": "dev",
+     "parent": [
+      "color-convert"
+     ]
+    },
+    {
+     "name": "dependency-graph",
+     "requirement": "^0.11.0",
+     "resolved_requirement": "0.11.0",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "dir-glob",
+     "requirement": "^3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "dev",
+     "parent": [
+      "globby"
+     ]
+    },
+    {
+     "name": "electron-to-chromium",
+     "requirement": "^1.4.118",
+     "resolved_requirement": "1.4.129",
+     "env": "dev",
+     "parent": [
+      "browserslist"
+     ]
+    },
+    {
+     "name": "emoji-regex",
+     "requirement": "^8.0.0",
+     "resolved_requirement": "8.0.0",
+     "env": "dev",
+     "parent": [
+      "string-width"
+     ]
+    },
+    {
+     "name": "escalade",
+     "requirement": "^3.1.1",
+     "resolved_requirement": "3.1.1",
+     "env": "dev",
+     "parent": [
+      "browserslist"
+     ]
+    },
+    {
+     "name": "fast-glob",
+     "requirement": "^3.2.7",
+     "resolved_requirement": "3.2.11",
+     "env": "dev",
+     "parent": [
+      "globby"
+     ]
+    },
+    {
+     "name": "fastq",
+     "requirement": "^1.6.0",
+     "resolved_requirement": "1.13.0",
+     "env": "dev",
+     "parent": [
+      "@nodelib/fs.walk"
+     ]
+    },
+    {
+     "name": "fill-range",
+     "requirement": "^7.0.1",
+     "resolved_requirement": "7.0.1",
+     "env": "dev",
+     "parent": [
+      "braces"
+     ]
+    },
+    {
+     "name": "fraction.js",
+     "requirement": "^4.2.0",
+     "resolved_requirement": "4.2.0",
+     "env": "dev",
+     "parent": [
+      "autoprefixer"
+     ]
+    },
+    {
+     "name": "fs-extra",
+     "requirement": "^10.0.0",
+     "resolved_requirement": "10.1.0",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "fsevents",
+     "requirement": "~2.3.2",
+     "resolved_requirement": "2.3.2",
+     "env": "runtime",
+     "parent": [
+      "chokidar"
+     ]
+    },
+    {
+     "name": "get-caller-file",
+     "requirement": "^2.0.5",
+     "resolved_requirement": "2.0.5",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "get-stdin",
+     "requirement": "^9.0.0",
+     "resolved_requirement": "9.0.0",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "glob-parent",
+     "requirement": "^5.1.2",
+     "resolved_requirement": "5.1.2",
+     "env": "dev",
+     "parent": [
+      "chokidar",
+      "fast-glob"
+     ]
+    },
+    {
+     "name": "glob-parent",
+     "requirement": "~5.1.2",
+     "resolved_requirement": "5.1.2",
+     "env": "dev",
+     "parent": [
+      "chokidar"
+     ]
+    },
+    {
+     "name": "globby",
+     "requirement": "^12.0.0",
+     "resolved_requirement": "12.2.0",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "^4.1.6",
+     "resolved_requirement": "4.2.10",
+     "env": "dev",
+     "parent": [
+      "fs-extra",
+      "jsonfile"
+     ]
+    },
+    {
+     "name": "graceful-fs",
+     "requirement": "^4.2.0",
+     "resolved_requirement": "4.2.10",
+     "env": "dev",
+     "parent": [
+      "fs-extra"
+     ]
+    },
+    {
+     "name": "ignore",
+     "requirement": "^5.1.9",
+     "resolved_requirement": "5.2.0",
+     "env": "dev",
+     "parent": [
+      "globby"
+     ]
+    },
+    {
+     "name": "is-binary-path",
+     "requirement": "~2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "dev",
+     "parent": [
+      "chokidar"
+     ]
+    },
+    {
+     "name": "is-extglob",
+     "requirement": "^2.1.1",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "is-glob"
+     ]
+    },
+    {
+     "name": "is-fullwidth-code-point",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "string-width"
+     ]
+    },
+    {
+     "name": "is-glob",
+     "requirement": "^4.0.1",
+     "resolved_requirement": "4.0.3",
+     "env": "dev",
+     "parent": [
+      "glob-parent"
+     ]
+    },
+    {
+     "name": "is-glob",
+     "requirement": "~4.0.1",
+     "resolved_requirement": "4.0.3",
+     "env": "dev",
+     "parent": [
+      "chokidar",
+      "glob-parent"
+     ]
+    },
+    {
+     "name": "is-number",
+     "requirement": "^7.0.0",
+     "resolved_requirement": "7.0.0",
+     "env": "dev",
+     "parent": [
+      "to-regex-range"
+     ]
+    },
+    {
+     "name": "jsonfile",
+     "requirement": "^6.0.1",
+     "resolved_requirement": "6.1.0",
+     "env": "dev",
+     "parent": [
+      "fs-extra"
+     ]
+    },
+    {
+     "name": "lilconfig",
+     "requirement": "^2.0.5",
+     "resolved_requirement": "2.0.5",
+     "env": "dev",
+     "parent": [
+      "postcss-load-config"
+     ]
+    },
+    {
+     "name": "merge2",
+     "requirement": "^1.3.0",
+     "resolved_requirement": "1.4.1",
+     "env": "dev",
+     "parent": [
+      "fast-glob"
+     ]
+    },
+    {
+     "name": "merge2",
+     "requirement": "^1.4.1",
+     "resolved_requirement": "1.4.1",
+     "env": "dev",
+     "parent": [
+      "fast-glob",
+      "globby"
+     ]
+    },
+    {
+     "name": "micromatch",
+     "requirement": "^4.0.4",
+     "resolved_requirement": "4.0.5",
+     "env": "dev",
+     "parent": [
+      "fast-glob"
+     ]
+    },
+    {
+     "name": "nanoid",
+     "requirement": "^3.3.4",
+     "resolved_requirement": "3.3.4",
+     "env": "dev",
+     "parent": [
+      "postcss"
+     ]
+    },
+    {
+     "name": "node-releases",
+     "requirement": "^2.0.3",
+     "resolved_requirement": "2.0.4",
+     "env": "dev",
+     "parent": [
+      "browserslist"
+     ]
+    },
+    {
+     "name": "normalize-path",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "anymatch"
+     ]
+    },
+    {
+     "name": "normalize-path",
+     "requirement": "~3.0.0",
+     "resolved_requirement": "3.0.0",
+     "env": "dev",
+     "parent": [
+      "anymatch",
+      "chokidar"
+     ]
+    },
+    {
+     "name": "normalize-range",
+     "requirement": "^0.1.2",
+     "resolved_requirement": "0.1.2",
+     "env": "dev",
+     "parent": [
+      "autoprefixer"
+     ]
+    },
+    {
+     "name": "path-type",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "dir-glob"
+     ]
+    },
+    {
+     "name": "picocolors",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "autoprefixer"
+     ]
+    },
+    {
+     "name": "picomatch",
+     "requirement": "^2.0.4",
+     "resolved_requirement": "2.3.1",
+     "env": "dev",
+     "parent": [
+      "anymatch",
+      "micromatch"
+     ]
+    },
+    {
+     "name": "picomatch",
+     "requirement": "^2.2.1",
+     "resolved_requirement": "2.3.1",
+     "env": "dev",
+     "parent": [
+      "micromatch",
+      "readdirp"
+     ]
+    },
+    {
+     "name": "picomatch",
+     "requirement": "^2.3.1",
+     "resolved_requirement": "2.3.1",
+     "env": "dev",
+     "parent": [
+      "micromatch"
+     ]
+    },
+    {
+     "name": "pify",
+     "requirement": "^2.3.0",
+     "resolved_requirement": "2.3.0",
+     "env": "dev",
+     "parent": [
+      "read-cache"
+     ]
+    },
+    {
+     "name": "postcss-cli",
+     "resolved_requirement": "9.1.0",
+     "env": "dev"
+    },
+    {
+     "name": "postcss-load-config",
+     "requirement": "^3.0.0",
+     "resolved_requirement": "3.1.4",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "postcss-reporter",
+     "requirement": "^7.0.0",
+     "resolved_requirement": "7.0.5",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "postcss-value-parser",
+     "requirement": "^4.2.0",
+     "resolved_requirement": "4.2.0",
+     "env": "dev",
+     "parent": [
+      "autoprefixer"
+     ]
+    },
+    {
+     "name": "postcss",
+     "resolved_requirement": "8.4.14",
+     "env": "dev"
+    },
+    {
+     "name": "pretty-hrtime",
+     "requirement": "^1.0.3",
+     "resolved_requirement": "1.0.3",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "queue-microtask",
+     "requirement": "^1.2.2",
+     "resolved_requirement": "1.2.3",
+     "env": "dev",
+     "parent": [
+      "run-parallel"
+     ]
+    },
+    {
+     "name": "read-cache",
+     "requirement": "^1.0.0",
+     "resolved_requirement": "1.0.0",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    },
+    {
+     "name": "readdirp",
+     "requirement": "~3.6.0",
+     "resolved_requirement": "3.6.0",
+     "env": "dev",
+     "parent": [
+      "chokidar"
+     ]
+    },
+    {
+     "name": "require-directory",
+     "requirement": "^2.1.1",
+     "resolved_requirement": "2.1.1",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "reusify",
+     "requirement": "^1.0.4",
+     "resolved_requirement": "1.0.4",
+     "env": "dev",
+     "parent": [
+      "fastq"
+     ]
+    },
+    {
+     "name": "run-parallel",
+     "requirement": "^1.1.9",
+     "resolved_requirement": "1.2.0",
+     "env": "dev",
+     "parent": [
+      "@nodelib/fs.scandir"
+     ]
+    },
+    {
+     "name": "slash",
+     "requirement": "^4.0.0",
+     "resolved_requirement": "4.0.0",
+     "env": "dev",
+     "parent": [
+      "globby"
+     ]
+    },
+    {
+     "name": "source-map-js",
+     "requirement": "^1.0.2",
+     "resolved_requirement": "1.0.2",
+     "env": "dev",
+     "parent": [
+      "postcss"
+     ]
+    },
+    {
+     "name": "string-width",
+     "requirement": "^4.1.0",
+     "resolved_requirement": "4.2.3",
+     "env": "dev",
+     "parent": [
+      "cliui",
+      "wrap-ansi"
+     ]
+    },
+    {
+     "name": "string-width",
+     "requirement": "^4.2.0",
+     "resolved_requirement": "4.2.3",
+     "env": "dev",
+     "parent": [
+      "cliui"
+     ]
+    },
+    {
+     "name": "string-width",
+     "requirement": "^4.2.3",
+     "resolved_requirement": "4.2.3",
+     "env": "dev",
+     "parent": [
+      "cliui",
+      "yargs"
+     ]
+    },
+    {
+     "name": "strip-ansi",
+     "requirement": "^6.0.0",
+     "resolved_requirement": "6.0.1",
+     "env": "dev",
+     "parent": [
+      "cliui"
+     ]
+    },
+    {
+     "name": "strip-ansi",
+     "requirement": "^6.0.1",
+     "resolved_requirement": "6.0.1",
+     "env": "dev",
+     "parent": [
+      "cliui",
+      "string-width"
+     ]
+    },
+    {
+     "name": "thenby",
+     "requirement": "^1.3.4",
+     "resolved_requirement": "1.3.4",
+     "env": "dev",
+     "parent": [
+      "postcss-reporter"
+     ]
+    },
+    {
+     "name": "to-regex-range",
+     "requirement": "^5.0.1",
+     "resolved_requirement": "5.0.1",
+     "env": "dev",
+     "parent": [
+      "fill-range"
+     ]
+    },
+    {
+     "name": "universalify",
+     "requirement": "^2.0.0",
+     "resolved_requirement": "2.0.0",
+     "env": "dev",
+     "parent": [
+      "fs-extra"
+     ]
+    },
+    {
+     "name": "wrap-ansi",
+     "requirement": "^7.0.0",
+     "resolved_requirement": "7.0.0",
+     "env": "dev",
+     "parent": [
+      "cliui"
+     ]
+    },
+    {
+     "name": "y18n",
+     "requirement": "^5.0.5",
+     "resolved_requirement": "5.0.8",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "yaml",
+     "requirement": "^1.10.2",
+     "resolved_requirement": "1.10.2",
+     "env": "dev",
+     "parent": [
+      "postcss-load-config"
+     ]
+    },
+    {
+     "name": "yargs-parser",
+     "requirement": "^21.0.0",
+     "resolved_requirement": "21.0.1",
+     "env": "dev",
+     "parent": [
+      "yargs"
+     ]
+    },
+    {
+     "name": "yargs",
+     "requirement": "^17.0.0",
+     "resolved_requirement": "17.5.1",
+     "env": "dev",
+     "parent": [
+      "postcss-cli"
+     ]
+    }
+   ],
+   "kind": "lockfile",
+   "related": [
+    "docs/package.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "docs/package.json",
+  "type": "file",
+  "name": "package.json",
+  "extension": ".json",
+  "result": {
+   "platform": "npm",
+   "dependencies": [
+    {
+     "name": "autoprefixer",
+     "requirement": "10.4.7",
+     "resolved_requirement": "10.4.7",
+     "env": "dev"
+    },
+    {
+     "name": "postcss-cli",
+     "requirement": "9.1.0",
+     "resolved_requirement": "9.1.0",
+     "env": "dev"
+    },
+    {
+     "name": "postcss",
+     "requirement": "8.4.14",
+     "resolved_requirement": "8.4.14",
+     "env": "dev"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "docs/package-lock.json"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "requirements.txt",
+  "type": "file",
+  "name": "requirements.txt",
+  "extension": ".txt",
+  "result": {
+   "platform": "pypi",
+   "dependencies": [
+    {
+     "name": "Django",
+     "requirement": "==3.2.14",
+     "resolved_requirement": "3.2.14",
+     "env": "runtime"
+    },
+    {
+     "name": "JSON-log-formatter",
+     "requirement": "==0.5.1",
+     "resolved_requirement": "0.5.1",
+     "env": "runtime"
+    },
+    {
+     "name": "Markdown",
+     "requirement": "==3.3.7",
+     "resolved_requirement": "3.3.7",
+     "env": "runtime"
+    },
+    {
+     "name": "Pillow",
+     "requirement": "==9.2.0",
+     "resolved_requirement": "9.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "PyGithub",
+     "requirement": "==1.55",
+     "resolved_requirement": "1.55",
+     "env": "runtime"
+    },
+    {
+     "name": "PyJWT",
+     "requirement": "==2.4.0",
+     "resolved_requirement": "2.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "Python-jose",
+     "requirement": "==3.3.0",
+     "resolved_requirement": "3.3.0",
+     "env": "runtime"
+    },
+    {
+     "name": "argon2-cffi",
+     "requirement": "==21.3.0",
+     "resolved_requirement": "21.3.0",
+     "env": "runtime"
+    },
+    {
+     "name": "asteval",
+     "requirement": "==0.9.27",
+     "resolved_requirement": "0.9.27",
+     "env": "runtime"
+    },
+    {
+     "name": "bleach",
+     "requirement": "==4.1.0",
+     "resolved_requirement": "4.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "celery",
+     "requirement": "==5.2.7",
+     "resolved_requirement": "5.2.7",
+     "env": "runtime"
+    },
+    {
+     "name": "coverage",
+     "requirement": "==6.4.1",
+     "resolved_requirement": "6.4.1",
+     "env": "runtime"
+    },
+    {
+     "name": "cpe",
+     "requirement": "==1.2.1",
+     "resolved_requirement": "1.2.1",
+     "env": "runtime"
+    },
+    {
+     "name": "cryptography",
+     "requirement": "==37.0.2",
+     "resolved_requirement": "37.0.2",
+     "env": "runtime"
+    },
+    {
+     "name": "cvss",
+     "requirement": "==2.4",
+     "resolved_requirement": "2.4",
+     "env": "runtime"
+    },
+    {
+     "name": "debugpy",
+     "requirement": "==1.6.0",
+     "resolved_requirement": "1.6.0",
+     "env": "runtime"
+    },
+    {
+     "name": "defusedxml",
+     "requirement": "==0.7.1",
+     "resolved_requirement": "0.7.1",
+     "env": "runtime"
+    },
+    {
+     "name": "django-auditlog",
+     "requirement": "==2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-crispy-forms",
+     "requirement": "==1.14.0",
+     "resolved_requirement": "1.14.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-crum",
+     "requirement": "==0.7.9",
+     "resolved_requirement": "0.7.9",
+     "env": "runtime"
+    },
+    {
+     "name": "django-dbbackup",
+     "requirement": "==3.3.0",
+     "resolved_requirement": "3.3.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-debug-toolbar-request-history",
+     "requirement": "==0.1.4",
+     "resolved_requirement": "0.1.4",
+     "env": "runtime"
+    },
+    {
+     "name": "django-debug-toolbar",
+     "requirement": "==3.4.0",
+     "resolved_requirement": "3.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-environ",
+     "requirement": "==0.9.0",
+     "resolved_requirement": "0.9.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-fieldsignals",
+     "requirement": "==0.7.0",
+     "resolved_requirement": "0.7.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-filter",
+     "requirement": "==21.1",
+     "resolved_requirement": "21.1",
+     "env": "runtime"
+    },
+    {
+     "name": "django-imagekit",
+     "requirement": "==4.1.0",
+     "resolved_requirement": "4.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-multiselectfield",
+     "requirement": "==0.1.12",
+     "resolved_requirement": "0.1.12",
+     "env": "runtime"
+    },
+    {
+     "name": "django-polymorphic",
+     "requirement": "==3.1.0",
+     "resolved_requirement": "3.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-prometheus",
+     "requirement": "==2.2.0",
+     "resolved_requirement": "2.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-ratelimit",
+     "requirement": "==3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "django-slack",
+     "requirement": "==5.17.8",
+     "resolved_requirement": "5.17.8",
+     "env": "runtime"
+    },
+    {
+     "name": "django-split-settings",
+     "requirement": "==1.1.0",
+     "resolved_requirement": "1.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-tagging",
+     "requirement": "==0.5.0",
+     "resolved_requirement": "0.5.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-tagulous",
+     "requirement": "==1.3.3",
+     "resolved_requirement": "1.3.3",
+     "env": "runtime"
+    },
+    {
+     "name": "django-test-migrations",
+     "requirement": "==1.2.0",
+     "resolved_requirement": "1.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django-watson",
+     "requirement": "==1.6.2",
+     "resolved_requirement": "1.6.2",
+     "env": "runtime"
+    },
+    {
+     "name": "django_celery_results",
+     "requirement": "==2.4.0",
+     "resolved_requirement": "2.4.0",
+     "env": "runtime"
+    },
+    {
+     "name": "django_extensions",
+     "requirement": "==3.1.5",
+     "resolved_requirement": "3.1.5",
+     "env": "runtime"
+    },
+    {
+     "name": "djangorestframework",
+     "requirement": "==3.13.1",
+     "resolved_requirement": "3.13.1",
+     "env": "runtime"
+    },
+    {
+     "name": "djangosaml2",
+     "requirement": "==1.5.1",
+     "resolved_requirement": "1.5.1",
+     "env": "runtime"
+    },
+    {
+     "name": "drf-spectacular",
+     "requirement": "==0.22.1",
+     "resolved_requirement": "0.22.1",
+     "env": "runtime"
+    },
+    {
+     "name": "drf_yasg",
+     "requirement": "==1.20.0",
+     "resolved_requirement": "1.20.0",
+     "env": "runtime"
+    },
+    {
+     "name": "gitpython",
+     "requirement": "==3.1.27",
+     "resolved_requirement": "3.1.27",
+     "env": "runtime"
+    },
+    {
+     "name": "google-api-python-client",
+     "requirement": "==2.52.0",
+     "resolved_requirement": "2.52.0",
+     "env": "runtime"
+    },
+    {
+     "name": "google-auth-oauthlib",
+     "requirement": "==0.5.2",
+     "resolved_requirement": "0.5.2",
+     "env": "runtime"
+    },
+    {
+     "name": "google-auth",
+     "requirement": "==2.9.0",
+     "resolved_requirement": "2.9.0",
+     "env": "runtime"
+    },
+    {
+     "name": "gunicorn",
+     "requirement": "==20.1.0",
+     "resolved_requirement": "20.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "html2text",
+     "requirement": "==2020.1.16",
+     "resolved_requirement": "2020.1.16",
+     "env": "runtime"
+    },
+    {
+     "name": "humanize",
+     "requirement": "==4.2.3",
+     "resolved_requirement": "4.2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "hyperlink",
+     "requirement": "==21.0.0",
+     "resolved_requirement": "21.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "jira",
+     "requirement": "==3.0.1",
+     "resolved_requirement": "3.0.1",
+     "env": "runtime"
+    },
+    {
+     "name": "lxml",
+     "requirement": "==4.9.1",
+     "resolved_requirement": "4.9.1",
+     "env": "runtime"
+    },
+    {
+     "name": "mysqlclient",
+     "requirement": "==2.1.0",
+     "resolved_requirement": "2.1.0",
+     "env": "runtime"
+    },
+    {
+     "name": "numpy",
+     "requirement": "==1.23.0",
+     "resolved_requirement": "1.23.0",
+     "env": "runtime"
+    },
+    {
+     "name": "openpyxl",
+     "requirement": "==3.0.10",
+     "resolved_requirement": "3.0.10",
+     "env": "runtime"
+    },
+    {
+     "name": "packageurl-python",
+     "requirement": "==0.10.0",
+     "resolved_requirement": "0.10.0",
+     "env": "runtime"
+    },
+    {
+     "name": "psycopg2-binary",
+     "requirement": "==2.9.3",
+     "resolved_requirement": "2.9.3",
+     "env": "runtime"
+    },
+    {
+     "name": "python-dateutil",
+     "requirement": "==2.8.2",
+     "resolved_requirement": "2.8.2",
+     "env": "runtime"
+    },
+    {
+     "name": "python-gitlab",
+     "requirement": "==3.6.0",
+     "resolved_requirement": "3.6.0",
+     "env": "runtime"
+    },
+    {
+     "name": "pytz",
+     "requirement": "==2022.1",
+     "resolved_requirement": "2022.1",
+     "env": "runtime"
+    },
+    {
+     "name": "redis",
+     "requirement": "==4.3.4",
+     "resolved_requirement": "4.3.4",
+     "env": "runtime"
+    },
+    {
+     "name": "requests",
+     "requirement": "==2.28.1",
+     "resolved_requirement": "2.28.1",
+     "env": "runtime"
+    },
+    {
+     "name": "social-auth-app-django",
+     "requirement": "==5.0.0",
+     "resolved_requirement": "5.0.0",
+     "env": "runtime"
+    },
+    {
+     "name": "social-auth-core",
+     "requirement": "==4.3.0",
+     "resolved_requirement": "4.3.0",
+     "env": "runtime"
+    },
+    {
+     "name": "sqlalchemy",
+     "requirement": "==1.4.39",
+     "resolved_requirement": "1.4.39",
+     "env": "runtime"
+    },
+    {
+     "name": "supervisor",
+     "requirement": "==4.2.4",
+     "resolved_requirement": "4.2.4",
+     "env": "runtime"
+    },
+    {
+     "name": "titlecase",
+     "requirement": "==2.3",
+     "resolved_requirement": "2.3",
+     "env": "runtime"
+    },
+    {
+     "name": "uWSGI",
+     "requirement": "==2.0.20",
+     "resolved_requirement": "2.0.20",
+     "env": "runtime"
+    },
+    {
+     "name": "urllib3",
+     "requirement": "==1.26.9",
+     "resolved_requirement": "1.26.9",
+     "env": "runtime"
+    },
+    {
+     "name": "vcrpy-unittest",
+     "requirement": "==0.1.7",
+     "resolved_requirement": "0.1.7",
+     "env": "runtime"
+    },
+    {
+     "name": "vcrpy",
+     "requirement": "==4.2.0",
+     "resolved_requirement": "4.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "vobject",
+     "requirement": "==0.9.6.1",
+     "resolved_requirement": "0.9.6.1",
+     "env": "runtime"
+    },
+    {
+     "name": "whitenoise",
+     "requirement": "==5.2.0",
+     "resolved_requirement": "5.2.0",
+     "env": "runtime"
+    },
+    {
+     "name": "xlrd",
+     "requirement": "==1.2.0",
+     "resolved_requirement": "1.2.0",
+     "env": "runtime"
+    }
+   ],
+   "kind": "manifest",
+   "success": true,
+   "extra": {}
+  }
+ }
+]

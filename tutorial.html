@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Tutorial Demo</title>
+  <style>
+    /* The style of the tooltip */
+    .g6-tooltip {
+      border: 1px solid #e2e2e2;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #545454;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 8px;
+      box-shadow: rgb(174, 174, 174) 0px 0px 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="mountNode"></div>
+
+
+  <!-- <script src="https://gw.alipayobjects.com/os/lib/antv/g6/4.3.11/dist/g6.min.js"></script> -->
+
+  <script type="module">
+    import G6 from '@antv/g6';
+
+    // Instantiate the Minimap
+    const minimap = new G6.Minimap({
+      size: [100, 100],
+      className: 'minimap',
+      type: 'delegate',
+    });
+    const grid = new G6.Grid();
+    // Instantiate a Graph
+    const graph = new G6.Graph({
+      container: 'mountNode', // The id of the container
+      // The width and height of the graph
+      width: 800,
+      height: 500,
+      // fitView: true,
+      // fitViewPadding: [20, 40, 50, 20],
+      layout: {
+        type: 'force',
+        linkDistance: 100,
+        preventOverlap: true,
+        nodeStrength: -30,
+        edgeStrength: 0.1,
+      },
+
+      nodeStateStyles: {
+        // The node style when the state 'hover' is true
+        hover: {
+          fill: 'lightsteelblue',
+        },
+        // The node style when the state 'click' is true
+        click: {
+          stroke: '#000',
+          lineWidth: 3,
+        },
+      },
+      // The edge styles in different states
+      edgeStateStyles: {
+        // The edge style when the state 'click' is true
+        click: {
+          stroke: 'steelblue',
+        },
+      },
+
+      modes: {
+        default: ['drag-node', 'drag-canvas', 'zoom-canvas',
+          {
+            type: 'tooltip', // Tooltip
+            formatText(model) {
+              // The content of tooltip
+              const text = 'label: ' + model.label + '<br/> class: ' + model.class;
+              return text;
+            },
+
+          },
+          {
+            type: 'edge-tooltip', // Edge tooltip
+            formatText(model) {
+              // The content of the edge tooltip
+              const text =
+                'source: ' +
+                model.source +
+                '<br/> target: ' +
+                model.target +
+                '<br/> weight: ' +
+                model.weight;
+              return text;
+            },
+          },
+
+        ],
+        // edit: [],
+      },
+      defaultNode: {
+        labelCfg: {
+          style: {
+            fill: '#fff', // The color of the text
+          },
+        },
+      },
+      // The style properties and other properties for all the edges in the default state
+      defaultEdge: {
+        labelCfg: {
+          autoRotate: true, // Whether to rotate the label according to the edges
+        },
+      },
+      plugins: [minimap, grid],
+    });
+    // Load the data
+
+    const main = async () => {
+      const response = await fetch(
+        'https://gw.alipayobjects.com/os/basement_prod/6cae02ab-4c29-44b2-b1fd-4005688febcb.json',
+      );
+      const remoteData = await response.json();
+      const nodes = remoteData.nodes;
+      const edges = remoteData.edges;
+      nodes.forEach((node) => {
+        if (!node.style) {
+          node.style = {};
+        }
+        node.style.lineWidth = 1;
+        node.style.stroke = '#666';
+        node.style.fill = 'steelblue';
+        switch (
+        node.class // Configure the graphics type of nodes according to their class
+        ) {
+          case 'c0': {
+            node.type = 'circle'; // The graphics type is circle when class = 'c0'
+            break;
+          }
+          case 'c1': {
+            node.type = 'rect'; // The graphics type is rect when class = 'c1'
+            node.size = [35, 20]; // The node size when class = 'c1'
+            break;
+          }
+          case 'c2': {
+            node.type = 'ellipse'; // The graphics type is ellipse when class = 'c2'
+            node.size = [35, 20]; // The node size when class = 'c2'
+            break;
+          }
+        }
+      });
+
+      edges.forEach((edge) => {
+        if (!edge.style) {
+          edge.style = {};
+        }
+        edge.style.lineWidth = edge.weight; // Mapping the weight in data to lineWidth
+        edge.style.opacity = 0.6; // The opacity of edges
+        edge.style.stroke = 'grey'; // The color of the edges
+      });
+
+      graph.data(remoteData); // Load the remote data
+      graph.render(); // Render the graph
+
+      // Mouse enter a node
+      graph.on('node:mouseenter', (e) => {
+        const nodeItem = e.item; // Get the target item
+        graph.setItemState(nodeItem, 'hover', true); // Set the state 'hover' of the item to be true
+      });
+
+      // Mouse leave a node
+      graph.on('node:mouseleave', (e) => {
+        const nodeItem = e.item; // Get the target item
+        graph.setItemState(nodeItem, 'hover', false); // Set the state 'hover' of the item to be false
+      });
+
+      // Click a node
+      graph.on('node:click', (e) => {
+        // Swich the 'click' state of the node to be false
+        const clickNodes = graph.findAllByState('node', 'click');
+        clickNodes.forEach((cn) => {
+          graph.setItemState(cn, 'click', false);
+        });
+        const nodeItem = e.item; // et the clicked item
+        graph.setItemState(nodeItem, 'click', true); // Set the state 'click' of the item to be true
+      });
+
+      // Click an edge
+      graph.on('edge:click', (e) => {
+        // Swich the 'click' state of the edge to be false
+        const clickEdges = graph.findAllByState('edge', 'click');
+        clickEdges.forEach((ce) => {
+          graph.setItemState(ce, 'click', false);
+        });
+        const edgeItem = e.item; // Get the clicked item
+        graph.setItemState(edgeItem, 'click', true); // Set the state 'click' of the item to be true
+      });
+    };
+    main();
+
+  </script>
+</body>
+
+</html>

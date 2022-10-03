@@ -1,0 +1,681 @@
+[
+ {
+  "path": "android/guava-bom/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.guava:guava-testlib",
+     "requirement": "HEAD-android-SNAPSHOT",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "requirement": "HEAD-android-SNAPSHOT",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "android/guava-bom/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "android/guava-testlib/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "requirement": "HEAD-android-SNAPSHOT",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.j2objc:j2objc-annotations",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.13.2",
+     "resolved_requirement": "4.13.2",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "android/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "android/guava-tests/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.caliper:caliper",
+     "requirement": "1.0-beta-2",
+     "resolved_requirement": "1.0-beta-2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava-testlib",
+     "requirement": "HEAD-android-SNAPSHOT",
+     "env": "test"
+    },
+    {
+     "name": "com.google.jimfs:jimfs",
+     "requirement": "1.2",
+     "resolved_requirement": "1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.13.2",
+     "resolved_requirement": "4.13.2",
+     "env": "test"
+    },
+    {
+     "name": "org.easymock:easymock",
+     "requirement": "4.3",
+     "resolved_requirement": "4.3",
+     "env": "test"
+    },
+    {
+     "name": "org.mockito:mockito-core",
+     "requirement": "3.9.0",
+     "resolved_requirement": "3.9.0",
+     "env": "test"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "android/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "android/guava/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:failureaccess",
+     "requirement": "1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:listenablefuture",
+     "requirement": "9999.0-empty-to-avoid-conflict-with-guava",
+     "resolved_requirement": "9999.0-empty-to-avoid-conflict-with-guava",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.j2objc:j2objc-annotations",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "android/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "android/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.caliper:caliper",
+     "requirement": "1.0-beta-2",
+     "resolved_requirement": "1.0-beta-2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.j2objc:j2objc-annotations",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.jimfs:jimfs",
+     "requirement": "1.2",
+     "resolved_requirement": "1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.13.2",
+     "resolved_requirement": "4.13.2",
+     "env": "test"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    },
+    {
+     "name": "org.easymock:easymock",
+     "requirement": "4.3",
+     "resolved_requirement": "4.3",
+     "env": "test"
+    },
+    {
+     "name": "org.mockito:mockito-core",
+     "requirement": "3.9.0",
+     "resolved_requirement": "3.9.0",
+     "env": "test"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "android/guava/pom.xml",
+    "android/guava-bom/pom.xml",
+    "android/guava-testlib/pom.xml",
+    "android/guava-tests/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "guava-bom/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.guava:guava-gwt",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava-testlib",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "guava-bom/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "guava-gwt/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.guava:failureaccess",
+     "requirement": "1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava-testlib",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "test"
+    },
+    {
+     "name": "com.google.guava:guava-testlib",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "test"
+    },
+    {
+     "name": "com.google.guava:guava-tests",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "test"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.gwt:gwt-dev",
+     "requirement": "2.9.0",
+     "resolved_requirement": "2.9.0",
+     "env": "provided"
+    },
+    {
+     "name": "com.google.gwt:gwt-user",
+     "requirement": "2.9.0",
+     "resolved_requirement": "2.9.0",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth.extensions:truth-java8-extension",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "guava-testlib/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.j2objc:j2objc-annotations",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.13.2",
+     "resolved_requirement": "4.13.2",
+     "env": "compile"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "guava-tests/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.caliper:caliper",
+     "requirement": "1.0-beta-2",
+     "resolved_requirement": "1.0-beta-2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:guava-testlib",
+     "requirement": "HEAD-jre-SNAPSHOT",
+     "env": "test"
+    },
+    {
+     "name": "com.google.jimfs:jimfs",
+     "requirement": "1.2",
+     "resolved_requirement": "1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth.extensions:truth-java8-extension",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.13.2",
+     "resolved_requirement": "4.13.2",
+     "env": "test"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    },
+    {
+     "name": "org.easymock:easymock",
+     "requirement": "4.3",
+     "resolved_requirement": "4.3",
+     "env": "test"
+    },
+    {
+     "name": "org.mockito:mockito-core",
+     "requirement": "3.9.0",
+     "resolved_requirement": "3.9.0",
+     "env": "test"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "guava/pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:failureaccess",
+     "requirement": "1.0.1",
+     "resolved_requirement": "1.0.1",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.guava:listenablefuture",
+     "requirement": "9999.0-empty-to-avoid-conflict-with-guava",
+     "resolved_requirement": "9999.0-empty-to-avoid-conflict-with-guava",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.j2objc:j2objc-annotations",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ },
+ {
+  "path": "pom.xml",
+  "type": "file",
+  "name": "pom.xml",
+  "extension": ".xml",
+  "result": {
+   "platform": "maven",
+   "dependencies": [
+    {
+     "name": "com.google.caliper:caliper",
+     "requirement": "1.0-beta-2",
+     "resolved_requirement": "1.0-beta-2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.code.findbugs:jsr305",
+     "requirement": "3.0.2",
+     "resolved_requirement": "3.0.2",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.errorprone:error_prone_annotations",
+     "requirement": "2.11.0",
+     "resolved_requirement": "2.11.0",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.j2objc:j2objc-annotations",
+     "requirement": "1.3",
+     "resolved_requirement": "1.3",
+     "env": "compile"
+    },
+    {
+     "name": "com.google.jimfs:jimfs",
+     "requirement": "1.2",
+     "resolved_requirement": "1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth.extensions:truth-java8-extension",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "com.google.truth:truth",
+     "requirement": "1.1.2",
+     "resolved_requirement": "1.1.2",
+     "env": "test"
+    },
+    {
+     "name": "junit:junit",
+     "requirement": "4.13.2",
+     "resolved_requirement": "4.13.2",
+     "env": "test"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    },
+    {
+     "name": "org.checkerframework:checker-qual",
+     "requirement": "3.12.0",
+     "resolved_requirement": "3.12.0",
+     "env": "compile"
+    },
+    {
+     "name": "org.easymock:easymock",
+     "requirement": "4.3",
+     "resolved_requirement": "4.3",
+     "env": "test"
+    },
+    {
+     "name": "org.mockito:mockito-core",
+     "requirement": "3.9.0",
+     "resolved_requirement": "3.9.0",
+     "env": "test"
+    }
+   ],
+   "kind": "manifest",
+   "related": [
+    "guava/pom.xml",
+    "guava-bom/pom.xml",
+    "guava-gwt/pom.xml",
+    "guava-testlib/pom.xml",
+    "guava-tests/pom.xml"
+   ],
+   "success": true,
+   "extra": {}
+  }
+ }
+]
